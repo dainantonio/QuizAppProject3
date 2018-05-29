@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/quizbackimg"
+    tools:ignore="Overdraw">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:id="@+id/score_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/score"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:textColor="#00BCD4"/>
+
+            <TextView
+                android:id="@+id/score_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/_0"
+                android:textSize="30sp"
+                android:textStyle="italic"
+                android:textColor="#00BCD4"/>
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/how_well_do_you_know_your_spouse"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:id="@+id/q1Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_1_who_made_the_first_move"
+            android:textSize="20sp"
+            android:paddingTop="20dp"
+            android:textStyle="italic"/>
+
+        <RadioGroup
+            android:id="@+id/q1RadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+
+            <RadioButton
+                android:id="@+id/q1C1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/husband"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:onClick="clickRadioButton"/>
+
+            <RadioButton
+                android:id="@+id/q1C2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wife"
+                android:textSize="20sp"
+                android:textStyle="italic"
+                android:onClick="clickRadioButton"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/q2Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="@string/_2_how_did_you_meet_each_other"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+
+        <Button
+            android:id="@+id/q2C1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/mutual_friends"
+            android:layout_marginBottom="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="#00ced1"
+            android:textStyle="italic"
+            android:onClick="onClick"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <Button
+            android:id="@+id/q2C2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/social_media"
+            android:layout_marginBottom="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="#00ced1"
+            android:textStyle="italic"
+            android:onClick="onClick"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <Button
+            android:id="@+id/q2C3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/at_the_grocery_store"
+            android:layout_marginBottom="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="#00ced1"
+            android:textStyle="italic"
+            android:onClick="onClick"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <TextView
+            android:id="@+id/q3Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_3_in_what_month_and_year_did_you_get_married"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:textStyle="italic"/>
+
+        <Button
+            android:id="@+id/q3C1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/january_2014"
+            android:layout_marginBottom="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="#00ced1"
+            android:textStyle="italic"
+            android:onClick="onClick"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <Button
+            android:id="@+id/q3C2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/november_2005"
+            android:layout_marginBottom="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="#00ced1"
+            android:textStyle="italic"
+            android:onClick="onClick"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <Button
+            android:id="@+id/q3C3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/september_2014"
+            android:layout_marginBottom="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="#00ced1"
+            android:textStyle="italic"
+            android:onClick="onClick"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <TextView
+            android:id="@+id/q4Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_4_select_the_correct_answer"
+            android:textSize="20sp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:textStyle="italic"/>
+
+        <CheckBox
+            android:id="@+id/q4C1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/got_married_on_the_river"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textStyle="italic"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox
+            android:id="@+id/q4C2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/got_married_on_wednesday"
+            android:textSize="20sp"
+            android:checked="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textStyle="italic"
+            android:onClick="onCheckboxClicked"/>
+
+        <CheckBox
+            android:id="@+id/q4C3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/got_married_in_myrtle_beach"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textStyle="italic"
+            android:onClick="onCheckboxClicked"/>
+
+        <CheckBox
+            android:id="@+id/q4C4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/none"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textStyle="italic"
+            android:onClick="onCheckboxClicked"/>
+
+        <TextView
+            android:id="@+id/q5Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_5_describe_your_wife_in_a_sentence"
+            android:textSize="20sp"
+            android:paddingTop="20dp"
+            android:textStyle="italic"/>
+
+        <EditText
+            android:id="@+id/q5Answer"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/type_answer"
+            android:gravity="start"
+            android:textSize="20sp"
+            android:textColorHint="#00ced1"
+            android:textStyle="italic"/>
+
+    </LinearLayout>
+
+</ScrollView>

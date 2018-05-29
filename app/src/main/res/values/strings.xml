@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ABNDQuizApp</string>
+
+    <string name="how_well_do_you_know_your_spouse">How well do you know your spouse?</string>
+
+    <string name="_1_who_made_the_first_move">1. Who made the first move?</string>
+    <string name="husband">husband</string>
+    <string name="wife">wife</string>
+
+    <string name="_2_how_did_you_meet_each_other">2. How did you meet each other?</string>
+    <string name="social_media">Social Media</string>
+    <string name="at_the_grocery_store">At the grocery store</string>
+    <string name="mutual_friends">Mutual Friends</string>
+
+    <string name="_3_in_what_month_and_year_did_you_get_married">3. In what month and year did you get married?</string>
+    <string name="september_2014">September 2014</string>
+    <string name="november_2005">November 2005</string>
+    <string name="january_2014">January 2014</string>
+
+    <string name="_4_select_the_correct_answer">Select the correct answer</string>
+    <string name="got_married_on_the_river">Got married on the river</string>
+    <string name="got_married_on_wednesday">Got married on Wednesday</string>
+    <string name="got_married_in_myrtle_beach">Got married in Myrtle Beach</string>
+    <string name="none">None</string>
+
+
+    <string name="_5_describe_your_wife_in_a_sentence">5. Describe your wife in a sentence</string>
+
+
+    <string name="score">Score</string>
+    <string name="_0">0</string>
+
+    <string name="type_answer">type answer</string>
+
+
+
+</resources>
