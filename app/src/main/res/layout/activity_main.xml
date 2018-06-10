@@ -45,7 +45,8 @@
                 android:text="@string/_0"
                 android:textSize="30sp"
                 android:textStyle="italic"
-                android:textColor="#00BCD4"/>
+                android:textColor="#00BCD4"
+                tools:ignore="RelativeOverlap" />
         </RelativeLayout>
 
 
@@ -54,7 +55,8 @@
             android:layout_height="wrap_content"
             android:text="@string/how_well_do_you_know_your_spouse"
             android:textSize="20sp"
-            android:textStyle="italic"/>
+            android:textColor="#a4c639"
+            android:textStyle="bold"/>
 
         <TextView
             android:id="@+id/q1Text"
@@ -62,8 +64,9 @@
             android:layout_height="wrap_content"
             android:text="@string/_1_who_made_the_first_move"
             android:textSize="20sp"
+            android:textColor="#000000"
             android:paddingTop="20dp"
-            android:textStyle="italic"/>
+            android:textStyle="bold"/>
 
         <RadioGroup
             android:id="@+id/q1RadioGroup"
@@ -100,13 +103,13 @@
             android:text="@string/_2_how_did_you_meet_each_other"
             android:textColor="#000000"
             android:textSize="20sp"
-            android:textStyle="italic"/>
+            android:textStyle="bold"/>
 
         <Button
             android:id="@+id/q2C1"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:layout_gravity="start"
             android:text="@string/mutual_friends"
             android:layout_marginBottom="20dp"
             android:paddingTop="10dp"
@@ -120,7 +123,7 @@
             android:id="@+id/q2C2"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:layout_gravity="start"
             android:text="@string/social_media"
             android:layout_marginBottom="20dp"
             android:paddingTop="10dp"
@@ -134,7 +137,7 @@
             android:id="@+id/q2C3"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:layout_gravity="start"
             android:text="@string/at_the_grocery_store"
             android:layout_marginBottom="20dp"
             android:paddingTop="10dp"
@@ -153,13 +156,13 @@
             android:textSize="20sp"
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
-            android:textStyle="italic"/>
+            android:textStyle="bold"/>
 
         <Button
             android:id="@+id/q3C1"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:layout_gravity="start"
             android:text="@string/january_2014"
             android:layout_marginBottom="20dp"
             android:paddingTop="10dp"
@@ -173,7 +176,7 @@
             android:id="@+id/q3C2"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:layout_gravity="start"
             android:text="@string/november_2005"
             android:layout_marginBottom="20dp"
             android:paddingTop="10dp"
@@ -187,7 +190,7 @@
             android:id="@+id/q3C3"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:layout_gravity="start"
             android:text="@string/september_2014"
             android:layout_marginBottom="20dp"
             android:paddingTop="10dp"
@@ -203,15 +206,16 @@
             android:layout_height="wrap_content"
             android:text="@string/_4_select_the_correct_answer"
             android:textSize="20sp"
+            android:textColor="#000000"
             android:paddingTop="20dp"
             android:paddingBottom="20dp"
-            android:textStyle="italic"/>
+            android:textStyle="bold"/>
 
         <CheckBox
             android:id="@+id/q4C1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/got_married_on_the_river"
+            android:text="@string/got_married_at_12_noon"
             android:textSize="20sp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
@@ -225,7 +229,6 @@
             android:layout_height="wrap_content"
             android:text="@string/got_married_on_wednesday"
             android:textSize="20sp"
-            android:checked="true"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:paddingTop="10dp"
@@ -263,21 +266,52 @@
             android:id="@+id/q5Text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/_5_describe_your_wife_in_a_sentence"
+            android:text="@string/_5_what_is_the_family_name"
             android:textSize="20sp"
+            android:textColor="#000000"
             android:paddingTop="20dp"
-            android:textStyle="italic"/>
+            android:textStyle="bold"/>
 
         <EditText
             android:id="@+id/q5Answer"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:inputType="text"
-            android:hint="@string/type_answer"
+            android:text="@string/russell"
+            android:hint="@string/enter_family_name"
             android:gravity="start"
             android:textSize="20sp"
             android:textColorHint="#00ced1"
             android:textStyle="italic"/>
+
+        <Button
+            android:id="@+id/q5Button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/submit"
+            android:layout_marginBottom="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="#00ced1"
+            android:textStyle="italic"
+            android:onClick="onClickEditText"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <Button
+            android:id="@+id/retakeButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/retake_quiz"
+            android:layout_marginBottom="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="#00ced1"
+            android:textStyle="italic"
+            android:onClick="RetakeQuiz"
+            style="?android:attr/borderlessButtonStyle"/>
+
 
     </LinearLayout>
 

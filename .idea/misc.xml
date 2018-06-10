@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0">
+      <entry_point TYPE="field" FQNAME="com.example.therussells.quizappproject3.MainActivity Q1RadioGroup" />
+      <entry_point TYPE="field" FQNAME="com.example.therussells.quizappproject3.MainActivity Q1C1" />
+      <entry_point TYPE="field" FQNAME="com.example.therussells.quizappproject3.MainActivity Answer" />
+      <entry_point TYPE="field" FQNAME="com.example.therussells.quizappproject3.MainActivity Q3C3" />
+      <entry_point TYPE="field" FQNAME="com.example.therussells.quizappproject3.MainActivity Q3C2" />
+      <entry_point TYPE="field" FQNAME="com.example.therussells.quizappproject3.MainActivity Q3C1" />
+      <entry_point TYPE="field" FQNAME="com.example.therussells.quizappproject3.MainActivity Q2C3" />
+      <entry_point TYPE="field" FQNAME="com.example.therussells.quizappproject3.MainActivity Q2C2" />
+      <entry_point TYPE="field" FQNAME="com.example.therussells.quizappproject3.MainActivity Q2C1" />
+      <entry_point TYPE="field" FQNAME="com.example.therussells.quizappproject3.MainActivity scoreView" />
+      <entry_point TYPE="field" FQNAME="com.example.therussells.quizappproject3.MainActivity updateScore" />
+      <entry_point TYPE="field" FQNAME="com.example.therussells.quizappproject3.MainActivity Q1C2" />
+    </entry_points>
+    <pattern value="QuestionLibrary" method="getchoice1" />
+  </component>
   <component name="NullableNotNullManager">
     <option name="myDefaultNullable" value="android.support.annotation.Nullable" />
     <option name="myDefaultNotNull" value="android.support.annotation.NonNull" />

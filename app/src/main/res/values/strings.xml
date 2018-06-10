@@ -8,29 +8,37 @@
     <string name="wife">wife</string>
 
     <string name="_2_how_did_you_meet_each_other">2. How did you meet each other?</string>
+    <string name="mutual_friends">Mutual Friends</string>
     <string name="social_media">Social Media</string>
     <string name="at_the_grocery_store">At the grocery store</string>
-    <string name="mutual_friends">Mutual Friends</string>
+
 
     <string name="_3_in_what_month_and_year_did_you_get_married">3. In what month and year did you get married?</string>
-    <string name="september_2014">September 2014</string>
-    <string name="november_2005">November 2005</string>
     <string name="january_2014">January 2014</string>
+    <string name="november_2005">November 2005</string>
+    <string name="september_2014">September 2014</string>
 
-    <string name="_4_select_the_correct_answer">Select the correct answer</string>
-    <string name="got_married_on_the_river">Got married on the river</string>
+
+    <string name="_4_select_the_correct_answer">4. Select the correct answer</string>
+    <string name="got_married_at_12_noon">Got married at 12 noon</string>
     <string name="got_married_on_wednesday">Got married on Wednesday</string>
     <string name="got_married_in_myrtle_beach">Got married in Myrtle Beach</string>
     <string name="none">None</string>
 
 
-    <string name="_5_describe_your_wife_in_a_sentence">5. Describe your wife in a sentence</string>
+    <string name="_5_what_is_the_family_name">5. What is the family name?</string>
+
 
 
     <string name="score">Score</string>
     <string name="_0">0</string>
 
-    <string name="type_answer">type answer</string>
+
+    <string name="submit">submit</string>
+    <string name="enter_family_name">enter family name</string>
+    <string name="russell">Russell</string>
+
+    <string name="retake_quiz">Retake Quiz</string>
 
 
 
