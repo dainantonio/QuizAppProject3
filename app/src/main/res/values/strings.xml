@@ -1,45 +1,38 @@
 <resources>
-    <string name="app_name">ABNDQuizApp</string>
+
+    <string name="score">Score</string>
+    <string name="_0">0</string>
 
     <string name="how_well_do_you_know_your_spouse">How well do you know your spouse?</string>
 
-    <string name="_1_who_made_the_first_move">1. Who made the first move?</string>
+    <string name="question_1">Question 1</string>
+    <string name="who_made_the_first_move">Who made the first move?</string>
     <string name="husband">husband</string>
     <string name="wife">wife</string>
 
-    <string name="_2_how_did_you_meet_each_other">2. How did you meet each other?</string>
+    <string name="question_2">Question 2</string>
+    <string name="how_did_you_meet_each_other">How did you meet each other?</string>
     <string name="mutual_friends">Mutual Friends</string>
     <string name="social_media">Social Media</string>
-    <string name="at_the_grocery_store">At the grocery store</string>
 
+    <string name="question_3">Question 3</string>
+    <string name="what_month_and_year_were_you_married">What month and year were you married?</string>
+    <string name="august_2015">August , 2015</string>
+    <string name="september_2014">September , 2014</string>
 
-    <string name="_3_in_what_month_and_year_did_you_get_married">3. In what month and year did you get married?</string>
-    <string name="january_2014">January 2014</string>
-    <string name="november_2005">November 2005</string>
-    <string name="september_2014">September 2014</string>
-
-
-    <string name="_4_select_the_correct_answer">4. Select the correct answer</string>
+    <string name="question_4">Question 4</string>
+    <string name="select_the_correct_answer">Select the correct answer</string>
     <string name="got_married_at_12_noon">Got married at 12 noon</string>
     <string name="got_married_on_wednesday">Got married on Wednesday</string>
     <string name="got_married_in_myrtle_beach">Got married in Myrtle Beach</string>
     <string name="none">None</string>
 
+    <string name="question_5">Question 5</string>
+    <string name="what_is_the_family_name">What is the family name?</string>
+    <string name="enter_last_name">enter last name</string>
 
-    <string name="_5_what_is_the_family_name">5. What is the family name?</string>
-
-
-
-    <string name="score">Score</string>
-    <string name="_0">0</string>
-
-
-    <string name="submit">submit</string>
-    <string name="enter_family_name">enter family name</string>
-    <string name="russell">Russell</string>
+    <string name="submit_quiz">Submit Quiz</string>
 
     <string name="retake_quiz">Retake Quiz</string>
-
-
-
+    <string name="save_answer">Save Answer</string>
 </resources>
